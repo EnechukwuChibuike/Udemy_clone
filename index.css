@@ -1,0 +1,284 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+
+header {
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  box-shadow: rgba(0, 0, 0, 0.212) 5px 5px 5px;
+}
+
+header img {
+  width: 10vw;
+  height: 10vh;
+}
+
+.div {
+  width: 80vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header input {
+  width: 35vw;
+  height: 7vh;
+  padding-left: 30px;
+  border-radius: 30px;
+  outline: none;
+  background-color: transparent;
+  border: 1px solid black;
+}
+
+.Search {
+  position: absolute;
+  margin-left: 10px;
+  color: gray;
+}
+
+.div2 {
+  display: flex;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: blue;
+}
+
+.btnDiv {
+  width: 20vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.btn1 {
+  background-color: transparent;
+  border: 1px solid black;
+}
+
+.btn2 {
+  background-color: black;
+  color: white;
+  border: none;
+}
+
+.btn1,
+.btn2,
+.btn3 {
+  height: 45px;
+  width: 80px;
+  font-weight: bold;
+}
+
+.cart {
+  font-size: 22px;
+}
+
+.btn3 {
+  background-color: transparent;
+  width: 50px !important;
+  border: 1px solid black;
+}
+
+.Globe {
+  font-size: large;
+}
+
+.btn2:hover {
+  opacity: 0.8;
+}
+
+.btn1:hover,
+.btn3:hover {
+  background-color: whitesmoke;
+}
+
+.cat {
+  display: flex;
+  align-items: center;
+  height: 11vh;
+  width: inherit;
+}
+
+.dropdown_content {
+  padding: 20px;
+  height: 80vh;
+  width: 200px;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.212) 5px 5px 10px;
+  position: absolute;
+  display: none;
+}
+
+.category_dropdown:hover .dropdown_content {
+  display: flex;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  height: 75vh;
+  width: 100%;
+}
+
+.landing {
+  background-image: url("udemybg.jpg");
+  background-repeat: no-repeat;
+  height: 70vh;
+  width: 99%;
+}
+
+.intro {
+  padding: 30px;
+  background-color: white;
+  line-height: 25px;
+  width: fit-content;
+  height: fit-content;
+  margin: 70px 0px 0px 70px;
+}
+
+.intro h1 {
+  font-size: 38px;
+  line-height: 45px;
+  color: rgb(36, 35, 35);
+}
+
+.intro p {
+  font-size: 18px;
+}
+
+.partners {
+  height: 40vh;
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 70px;
+}
+
+.centeredPartner {
+  height: 20vh;
+  width: 85vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.centeredPartner p {
+  font-size: 20px;
+  color: gray;
+}
+
+.partnersIcon {
+  display: flex;
+  justify-content: space-between;
+  width: inherit;
+}
+
+.sectionwithpadding {
+  padding: 0px 20px;
+}
+
+.coursesSection h1 {
+  font-size: 35px;
+  color: rgb(36, 35, 35);
+}
+
+.coursesSection p {
+  font-size: 20px;
+  margin: 20px 0px;
+  color: rgb(36, 35, 35);
+}
+
+.subjects {
+  display: flex;
+  width: 50vw;
+  justify-content: space-between;
+  font-weight: 900;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 10px 0px;
+}
+
+.subjects a {
+  color: rgb(64, 62, 62) !important;
+}
+
+.subjects a:hover {
+  color: black !important;
+}
+
+.courses {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+  border: 1px solid rgb(187, 181, 181);
+  width: 100%;
+}
+
+.centeredCourses {
+  height: 80vh;
+  width: 95%;
+}
+
+.centeredCourses h1 {
+  font-size: 25px;
+}
+
+.centeredCourses p {
+  width: 60vw;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.explore {
+  width: 150px;
+  font-size: 15px;
+  margin-bottom: 30px;
+}
+
+.courseCardSection {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.courseCard {
+  width: 19%;
+}
+
+.courseCard i {
+  color: goldenrod;
+}
+
+.courseCard img {
+  width: 100%;
+}
+figcaption {
+  display: flex;
+  flex-direction: column;
+  height: 17vh;
+  justify-content: space-between;
+}
+figcaption del {
+  font-size: 16px;
+  color: grey;
+  font-weight: lighter;
+}
+
+.courseCard img:hover {
+  opacity: 0.8;
+}
